@@ -32,7 +32,6 @@ var KDMainPageTopView = React.createClass({
     getInitialState(){
         return {
             bunnerImageArr : [],
-
         }
     },
 
@@ -54,17 +53,21 @@ var KDMainPageTopView = React.createClass({
     KDRenderBottomViewItem(){
         var itemArr = [];
         var itemTextArr = ['抢鲜订','日爆款','乐活通','社区拼'];
-        var itemImageName = ['knock','hot','mainPage_classifyChat','group'];
+        var itemImageName = ['../appImage/knock.png','../appImage/hot.png','../appImage/mainPage_classifyChat.png','../appImage/groud.png'];
         for (var i = 0; i < itemTextArr.length; i++){
             var text = itemTextArr[i];
+            var icon =  itemImageName[i];
+            var count = 3;
                 itemArr.push(
-                    <KDMainPageTopViewBottomItem key={i} iconName = 'LHTabBar_homenow' text = {text} navigator={this.props.navigator}>
+                    <KDMainPageTopViewBottomItem key={i} iconName = {icon} text = {text} navigator={this.props.navigator} count = {3}>
 
                     </KDMainPageTopViewBottomItem>
                 );
         }
         return itemArr;
     },
+
+
 
     componentDidMount(){
         this.KDNetworkRequest();

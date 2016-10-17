@@ -15,6 +15,7 @@ import TabNavigator from 'react-native-tab-navigator';
 
 
 var KDMainPage = require('./MainPage/KDMainPage');
+var KDMine = require('../KDClass/Mine/KDMine');
 
 var KDTabbar = React.createClass({
 
@@ -30,13 +31,14 @@ var KDTabbar = React.createClass({
 
             <TabNavigator>
 
-                {this.renderTabbar('主页','LHTabBar_home','LHTabBar_homenow','主页')}
+                {this.KDRenderTabbar('主页','LHTabBar_home','LHTabBar_homenow','主页',this.KDCreatChildView('KDMainPage'))}
 
-                {this.renderTabbar('乐活点','LHTabBar_point','LHTabBar_pointnow','乐活点')}
+                {this.KDRenderTabbar('乐活点','LHTabBar_point','LHTabBar_pointnow','乐活点',this.KDCreatChildView('KDMainPage'))}
 
-                {this.renderTabbar('购物车','LHTabBar_buycar','LHTabBar_buycarnow','购物车')}
+                {this.KDRenderTabbar('购物车','LHTabBar_buycar','LHTabBar_buycarnow','购物车',this.KDCreatChildView('KDMainPage'))}
 
-                {this.renderTabbar('我的','LHTabBar_me','LHTabBar_menow','我的')}
+                {this.KDRenderTabbar('我的','LHTabBar_me','LHTabBar_menow','我的',this.KDCreatChildView('KDMine'))}
+
 
             </TabNavigator>
 
@@ -44,7 +46,22 @@ var KDTabbar = React.createClass({
 
     },
 
-    renderTabbar(title,iconName,selectIconName,selectedTab){
+    KDCreatChildView(tag){
+        var childView;
+        switch(tag){
+            case 'KDMainPage':
+                childView = <KDMainPage navigator={this.props.navigator}></KDMainPage>;
+                break;
+            case 'KDMine':
+                childView = <KDMine></KDMine>;
+                break;
+            default:
+                break;
+        }
+        return childView;
+    },
+
+    KDRenderTabbar(title,iconName,selectIconName,selectedTab,childView){
         return(
 
             <TabNavigator.Item
@@ -54,7 +71,7 @@ var KDTabbar = React.createClass({
                 renderIcon={() => <Image source={{uri: iconName}} style={styles.imageS}/>} // 图标
                 renderSelectedIcon={() =><Image source={{uri: selectIconName}} style={styles.imageS}/>}
                 onPress={() => this.setState({ selectedTab: selectedTab })}>
-                <KDMainPage navigator={this.props.navigator}></KDMainPage>
+                {childView}
             </TabNavigator.Item>
         );
 

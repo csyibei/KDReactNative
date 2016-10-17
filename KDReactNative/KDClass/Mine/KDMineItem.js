@@ -1,5 +1,5 @@
 /**
- * Created by kaidi on 2016/10/13.
+ * Created by kaidi on 2016/10/17.
  */
 import React, { Component } from 'react';
 import {
@@ -17,7 +17,7 @@ var Win = Dimensions.get('window');
 var KDPushView = require('../KDPushView');
 
 
-var KDMainPageTopViewBottomItem = React.createClass({
+var KDMineItem = React.createClass({
 
     getDefaultProps(){
         return{
@@ -57,7 +57,7 @@ var KDMainPageTopViewBottomItem = React.createClass({
 
 const styles = StyleSheet.create({
     viewS : {
-        width : Win.width / 4,
+        width : Win.width / 3,
         height : 80,
         backgroundColor: 'white',
         justifyContent: 'center',
@@ -65,8 +65,8 @@ const styles = StyleSheet.create({
     },
 
     imageS : {
-        width : 32,
-        height : 32,
+        width : 28,
+        height : 28,
         marginBottom : 10,
         resizeMode : Image.resizeMode.contain,
     },
@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
     }
 });
 
-module.exports = KDMainPageTopViewBottomItem;
+module.exports = KDMineItem;
