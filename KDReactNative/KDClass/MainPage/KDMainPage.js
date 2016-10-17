@@ -15,6 +15,7 @@ import {
 
 var KDMainPageTopView = require('./KDMainPageTopView');
 var KDPushView = require('../KDPushView');
+var KDMainPageBottomListView = require('./KDMainPageBottomListView');
 
 var KDMainPage = React.createClass({
 
@@ -23,6 +24,7 @@ var KDMainPage = React.createClass({
 
             <ScrollView style={styles.scrollViewS}>
                 <KDMainPageTopView navigator={this.props.navigator} />
+                <KDMainPageBottomListView navigator={this.props.navigator}></KDMainPageBottomListView>
             </ScrollView>
 
             // <TouchableOpacity onPress={()=>{this.pushToxxxx()}} style={styles.viewS}>
@@ -36,7 +38,7 @@ var KDMainPage = React.createClass({
     pushToxxxx(){
         this.props.navigator.push(
             {
-                component: KDPushView, // 要跳转的版块
+                component: KDPushView,
                 title:'详情页'
             }
         );
@@ -53,6 +55,7 @@ const styles = StyleSheet.create({
 
     scrollViewS:{
         flex : 1,
+        backgroundColor:'#e8e8e8',
     },
 });
 
