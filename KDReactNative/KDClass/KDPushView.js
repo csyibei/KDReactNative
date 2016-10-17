@@ -17,7 +17,7 @@ var KDPushView = React.createClass({
        return(
            <TouchableOpacity onPress={()=>{this.popToxxxx()}} style={styles.viewS}>
                <View >
-                   <Text>KDPush</Text>
+                   <Text>KDPush(点击返回)</Text>
                </View>
            </TouchableOpacity>
        );

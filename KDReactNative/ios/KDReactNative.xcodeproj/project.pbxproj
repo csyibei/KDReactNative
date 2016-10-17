@@ -22,6 +22,8 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		2BBE4F0A1DAA37B500D22778 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE4F091DAA37B500D22778 /* Images.xcassets */; };
+		2BD736C91DB53B8800FD64C4 /* KDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD736C81DB53B8800FD64C4 /* KDView.m */; };
+		2BD736D61DB53BE500FD64C4 /* KDViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD736D51DB53BE500FD64C4 /* KDViewManager.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +127,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KDReactNative/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2BBE4F091DAA37B500D22778 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KDReactNative/Images.xcassets; sourceTree = "<group>"; };
+		2BD736C71DB53B8800FD64C4 /* KDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDView.h; sourceTree = "<group>"; };
+		2BD736C81DB53B8800FD64C4 /* KDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDView.m; sourceTree = "<group>"; };
+		2BD736D41DB53BE500FD64C4 /* KDViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDViewManager.h; sourceTree = "<group>"; };
+		2BD736D51DB53BE500FD64C4 /* KDViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDViewManager.m; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,6 +244,10 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				2BD736C71DB53B8800FD64C4 /* KDView.h */,
+				2BD736C81DB53B8800FD64C4 /* KDView.m */,
+				2BD736D41DB53BE500FD64C4 /* KDViewManager.h */,
+				2BD736D51DB53BE500FD64C4 /* KDViewManager.m */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -551,6 +561,8 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				2BD736C91DB53B8800FD64C4 /* KDView.m in Sources */,
+				2BD736D61DB53BE500FD64C4 /* KDViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@ import TabNavigator from 'react-native-tab-navigator';
 
 var KDMainPage = require('./MainPage/KDMainPage');
 var KDMine = require('../KDClass/Mine/KDMine');
+var KDPoint = require('../KDClass/KDPoint/KDPoint');
 
 var KDTabbar = React.createClass({
 
@@ -33,7 +34,7 @@ var KDTabbar = React.createClass({
 
                 {this.KDRenderTabbar('主页','LHTabBar_home','LHTabBar_homenow','主页',this.KDCreatChildView('KDMainPage'))}
 
-                {this.KDRenderTabbar('乐活点','LHTabBar_point','LHTabBar_pointnow','乐活点',this.KDCreatChildView('KDMainPage'))}
+                {this.KDRenderTabbar('乐活点','LHTabBar_point','LHTabBar_pointnow','乐活点',this.KDCreatChildView('KDPoint'))}
 
                 {this.KDRenderTabbar('购物车','LHTabBar_buycar','LHTabBar_buycarnow','购物车',this.KDCreatChildView('KDMainPage'))}
 
@@ -54,6 +55,9 @@ var KDTabbar = React.createClass({
                 break;
             case 'KDMine':
                 childView = <KDMine></KDMine>;
+                break;
+            case 'KDPoint':
+                childView = <KDPoint></KDPoint>;
                 break;
             default:
                 break;

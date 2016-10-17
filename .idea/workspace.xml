@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49bf8984-2fc8-4c11-8e44-897e23f60544" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDNative.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDPoint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/ios/KDView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/ios/KDView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/ios/KDViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KDReactNative/ios/KDViewManager.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPage.js" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBottomListView.js" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBottomListView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js" afterPath="$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KDReactNative/ios/KDReactNative.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/KDReactNative/ios/KDReactNative.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="KDReactNative.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KDMainPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPage.js">
+      <file leaf-file-name="KDPushView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="595">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="e#42#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KDPoint.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDPoint.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
                 <element signature="e#43#84#0" expanded="true" />
               </folding>
@@ -39,26 +58,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KDMainPageTopView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageTopView.js">
+      <file leaf-file-name="KDNative.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDNative.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="e#43#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KDMainPageBottomListView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBottomListView.js">
+      <file leaf-file-name="KDTabbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-              <folding>
-                <element signature="e#43#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-58">
+              <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,13 +115,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDOldIndexIos.js" />
         <option value="$PROJECT_DIR$/KDReactNative/index.ios.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDRootView.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDNavigator.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBannner.js" />
-        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/Mine/KDMineCell.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/Mine/KDMineHeader.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageTopView.js" />
@@ -115,6 +128,10 @@
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/Mine/KDMine.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPage.js" />
         <option value="$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBottomListView.js" />
+        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js" />
+        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js" />
+        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDNative.js" />
+        <option value="$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDPoint.js" />
       </list>
     </option>
   </component>
@@ -129,8 +146,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="208" />
+    <option name="x" value="39" />
+    <option name="y" value="114" />
     <option name="width" value="1245" />
     <option name="height" value="657" />
   </component>
@@ -229,29 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDReactNative" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDReactNative" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDReactNative" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KDClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainPage" />
+              <option name="myItemId" value="KDPoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,15 +360,15 @@
       <workItem from="1475982573951" duration="74745000" />
       <workItem from="1476640452276" duration="13486000" />
       <workItem from="1476695956257" duration="3063000" />
-      <workItem from="1476719915436" duration="2854000" />
+      <workItem from="1476719915436" duration="3922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94148000" />
+    <option name="totallyTimeSpent" value="95216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="208" width="1245" height="657" extended-state="0" />
+    <frame x="39" y="114" width="1245" height="657" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23202614" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
@@ -550,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDRootView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -582,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="75" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -671,8 +652,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/MainPage/KDMainPageBottomListView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDTabbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPushView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#42#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDNative.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KDReactNative/KDClass/KDPoint/KDPoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="e#43#84#0" expanded="true" />
           </folding>
