@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Facebook. All rights reserved.
 //
 
-#import "RCTViewManager.h"
+#import <RCTViewManager.h>
 
 @interface KDViewManager : RCTViewManager
 

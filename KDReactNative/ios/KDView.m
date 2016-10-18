@@ -10,14 +10,6 @@
 
 @implementation KDView
 
-- (instancetype)init
-{
-  self = [super init];
-  if (self) {
-    self.backgroundColor = [UIColor greenColor];
-  }
-  return self;
-}
 
 /*
 // Only override drawRect: if you perform custom drawing.

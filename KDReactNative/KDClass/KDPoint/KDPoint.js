@@ -12,16 +12,12 @@ import {
     DeviceEventEmitter
 } from 'react-native';
 
-
+var KDNative = require('./KDNative');
 
 var KDPoint = React.createClass({
     render(){
         return(
-            <TouchableOpacity  style={styles.viewS}>
-                <View >
-                    <Text>111</Text>
-                </View>
-            </TouchableOpacity>
+            <KDNative></KDNative>
         );
     },
 
