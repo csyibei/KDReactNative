@@ -45,7 +45,7 @@ var KDMainPageTopViewBottomItem = React.createClass({
         alert(this.props.count)
         this.props.navigator.push(
             {
-                component: KDPushView, // 要跳转的版块
+                component: KDPushView,
                 title:'详情页'
             }
         );

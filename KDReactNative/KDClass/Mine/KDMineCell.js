@@ -36,7 +36,7 @@ var KDMineCell = React.createClass({
     pushToxxxx(){
         this.props.navigator.push(
             {
-                component: KDPushView, // 要跳转的版块
+                component: KDPushView,
                 title:'详情页'
             }
         );

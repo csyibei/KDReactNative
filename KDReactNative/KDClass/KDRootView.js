@@ -56,7 +56,7 @@ var KDRootView = React.createClass({
 
         this.props.navigator.push(
             {
-                component: KDPushView, // 要跳转的版块
+                component: KDPushView,
                 title:'详情页'
             }
         );
